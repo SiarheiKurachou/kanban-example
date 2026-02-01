@@ -5,18 +5,18 @@ import KANBAN_COLUMNS from '../constants';
 
 const KanbanBoard: React.FC = () => {
     return (
-        <div className={styles.kanbanContainer}>
-            <div className={styles.kanbanHeader}>
+        <section className={styles.kanbanContainer} aria-label="Kanban board">
+            <header className={styles.kanbanHeader}>
                 <h1>Design weekly</h1>
                 <p>A board to keep track of design progress.</p>
-            </div>
+            </header>
 
-            <div className={styles.kanbanBoard}>
+            <main className={styles.kanbanBoard} role="main" aria-label="Board columns">
                 {KANBAN_COLUMNS.map((column, columnIndex) => (
                     <KanbanColumn key={columnIndex} column={column} />
                 ))}
-            </div>
-        </div>
+            </main>
+        </section>
     );
 };
 

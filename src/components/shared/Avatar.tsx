@@ -1,8 +1,13 @@
 import React from 'react';
 import styles from './Avatar.module.css';
 
-const Avatar: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
-  return <span className={styles.avatar}>{children}</span>;
+interface AvatarProps {
+  children?: React.ReactNode;
+  'aria-label'?: string;
+}
+
+const Avatar: React.FC<AvatarProps> = ({ children, 'aria-label': ariaLabel }) => {
+  return <span className={styles.avatar} aria-label={ariaLabel} tabIndex={0} role="img">{children}</span>;
 };
 
 export default Avatar;

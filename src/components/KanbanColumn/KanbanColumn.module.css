@@ -3,7 +3,18 @@
   border-radius: 0.5rem;
   padding: 0 1rem 1rem 1rem;
   max-height: calc(100vh - 12rem);
-  overflow: scroll;
+  overflow-y: auto;
+  transition: outline 0.2s ease;
+}
+
+.kanbanColumn:focus {
+  outline: 3px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+.kanbanColumn:focus-visible {
+  outline: 3px solid #3b82f6;
+  outline-offset: 2px;
 }
 
 .columnTitle {

@@ -5,14 +5,14 @@ import styles from './KanbanColumn.module.css';
 
 const KanbanColumn: React.FC<{ column: Column }> = ({ column }) => {
   return (
-    <div className={styles.kanbanColumn}>
+    <article className={styles.kanbanColumn} aria-label={`${column.title} column`} tabIndex={0}>
       <h2 className={styles.columnTitle}>{column.title}</h2>
-      <div className={styles.cardsContainer}>
+      <div className={styles.cardsContainer} role="list">
         {column.cards.map((card, i) => (
           <KanbanCard key={i} card={card} />
         ))}
       </div>
-    </div>
+    </article>
   );
 };
 
