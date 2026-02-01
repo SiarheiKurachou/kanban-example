@@ -2,7 +2,7 @@
   background: #F7F7F7;
   border-radius: 0.5rem;
   padding: 0 1rem 1rem 1rem;
-  max-height: calc(100vh - 12rem);
+  max-height: calc(100vh - 14rem);
   overflow-y: auto;
   transition: outline 0.2s ease;
 }
