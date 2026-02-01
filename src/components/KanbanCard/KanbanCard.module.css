@@ -25,10 +25,10 @@
 }
 
 .cardTitle {
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #212121;
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 0.75rem 0;
 }
 
 .cardAvatars {
@@ -40,7 +40,7 @@
 .cardDescription {
   font-size: 0.85rem;
   color: #5A5A65;
-  margin: 0 0 0.75rem 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .cardFooter {
@@ -51,10 +51,10 @@
 }
 
 .dueDate {
-  font-size: 0.8rem;
+  font-size: 0.88rem;
   background: #FFDCE0;
   color: #4D4D4D;
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem 0.75rem;
   border-radius: 0.5rem;
   white-space: nowrap;
 }
