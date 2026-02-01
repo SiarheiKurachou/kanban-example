@@ -1,7 +1,7 @@
 import React from 'react';
-import KANBAN_COLUMNS from '../constants';
-import KanbanColumn from '../KanbanColumn/KanbanColumn';
+import KanbanColumn from '../KanbanColumn';
 import styles from './KanbanBoard.module.css';
+import KANBAN_COLUMNS from '../constants';
 
 const KanbanBoard: React.FC = () => {
     return (

@@ -1,7 +1,6 @@
 import React from 'react';
 import type { Card } from '../types';
-import Avatar from '../shared/Avatar';
-import Tag from '../shared/Tag';
+import { Avatar, Tag } from '../shared';
 import styles from './KanbanCard.module.css';
 
 const KanbanCard: React.FC<{ card: Card }> = ({ card }) => {
