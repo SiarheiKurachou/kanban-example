@@ -25,6 +25,6 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
     border: 1px solid #0000000D;
-    border-radius: 24px;
+    border-radius: 1.5rem;
     padding: 1rem;
 }

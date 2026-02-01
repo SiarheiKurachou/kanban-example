@@ -5,7 +5,7 @@ import styles from './KanbanCard.module.css';
 
 const KanbanCard: React.FC<{ card: Card }> = ({ card }) => {
     return (
-        <article className={styles.card} role="listitem" tabIndex={0} aria-label={`Card: ${card.title}`}>
+        <section className={styles.card} role="listitem" tabIndex={0} aria-label={`Card: ${card.title}`}>
             <h3 className={styles.cardTitle}>{card.title}</h3>
 
             {card.avatars && card.avatars.length > 0 && (
@@ -30,7 +30,7 @@ const KanbanCard: React.FC<{ card: Card }> = ({ card }) => {
                     </div>
                 )}
             </footer>
-        </article>
+        </section>
     );
 };
 

@@ -3,7 +3,7 @@
   background: #FFDCE0;
   color: #4D4D4D;
   padding: 0.25rem 0.5rem;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   white-space: nowrap;
   transition: outline 0.2s ease;
 }
