@@ -1,28 +1,30 @@
 .kanbanContainer {
-  padding: 2rem;
-  background: #f9fafb;
-  border-radius: 0.5rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
 }
 
 .kanbanHeader {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .kanbanHeader h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #111827;
-  margin: 0 0 0.5rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #212121;
+    margin: 0 0 0.5rem 0;
 }
 
 .kanbanHeader p {
-  color: #6b7280;
-  margin: 0;
-  font-size: 0.95rem;
+    color: #5A5A65;
+    margin: 0;
+    font-size: 0.95rem;
 }
 
 .kanbanBoard {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    border: 1px solid #0000000D;
+    border-radius: 24px;
+    padding: 1rem;
 }
